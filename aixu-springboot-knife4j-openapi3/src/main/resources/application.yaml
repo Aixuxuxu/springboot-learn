@@ -1,0 +1,21 @@
+
+# springdoc-openapi
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: '分组1'
+      paths-to-match: '/test1/**'
+      packages-to-scan: com.aixu.knife4j.controller
+    - group: '分组2'
+      paths-to-match: '/test2/**'
+      packages-to-scan: com.aixu.knife4j.controller
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn

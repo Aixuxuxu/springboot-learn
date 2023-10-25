@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 154.3.0.49
+    port: 6399
+    password: Xu1876414429...
+    database: 0
